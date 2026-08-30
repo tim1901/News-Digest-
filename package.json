@@ -1,0 +1,13 @@
+{
+  "name": "usbcsd-sustainability-digest",
+  "version": "1.0.0",
+  "description": "Weekly sustainability news digest + urgent-flag bot for US BCSD, posted to Slack in a human tone.",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "node-fetch": "^2.7.0",
+    "@netlify/blobs": "^7.0.1"
+  }
+}

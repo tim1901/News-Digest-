@@ -1,0 +1,12 @@
+[build]
+  functions = "netlify/functions"
+
+# Runs every day — collects news, scores it, fires an immediate Slack
+# message for anything urgent, and queues everything else in Airtable.
+[functions."daily-check"]
+  schedule = "0 12 * * *"   # 12:00 UTC daily — adjust to your exec team's morning
+
+# Runs once a week — pulls the past week's queue, picks the top 5,
+# writes the human-toned digest, posts it, then archives the queue.
+[functions."weekly-digest"]
+  schedule = "0 13 * * 1"   # 13:00 UTC every Monday — adjust as needed
