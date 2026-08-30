@@ -1,4 +1,4 @@
-# US BCSD Sustainability Digest
+# Sustainability Digest
 
 Fully automatic weekly Slack roundup of sustainability news, written in a
 human voice — plus same-day alerts for anything urgent, and an on-demand
