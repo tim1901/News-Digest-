@@ -29,7 +29,7 @@ Slack slash command to trigger either one whenever you want.
 | Variable | Value |
 |---|---|
 | `SLACK_BOT_TOKEN` | Your `xoxb-...` bot token |
-| `SLACK_CHANNEL_ID` | Target channel ID (e.g. `C03AXN77GPP`) |
+| `SLACK_CHANNEL_ID` | Target channel ID |
 | `SLACK_SIGNING_SECRET` | Your Slack app's Signing Secret (see step 2) |
 | `ANTHROPIC_API_KEY` | Your Anthropic API key |
 
